@@ -22,7 +22,7 @@ class MontyHall:
             self.player_door_selection = self.player_selection_list[0]
         if self.winning_door == self.player_door_selection:
             self.wins += 1
-            print("You Won!")
+            print("You Win!")
         else:
             self.lossers += 1
             print("You Lose")
